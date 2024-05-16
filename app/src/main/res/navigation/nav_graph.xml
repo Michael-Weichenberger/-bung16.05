@@ -7,28 +7,28 @@
 
     <fragment
         android:id="@+id/first_Fragment"
-        android:name="first_Fragment"
+        android:name="FirstFragment"
         android:label="first_Fragment"
         tools:layout="@layout/fragment_first_" >
         <action
             android:id="@+id/action_first_Fragment_to_second_Fragment"
             app:destination="@id/second_Fragment" />
         <action
-            android:id="@+id/action_first_Fragment_to_third_Fragment5"
-            app:destination="@id/third_Fragment" />
+            android:id="@+id/action_first_Fragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
     </fragment>
     <fragment
         android:id="@+id/second_Fragment"
-        android:name="second_Fragment"
+        android:name="SecondFragment"
         android:label="Second_Fragment"
         tools:layout="@layout/fragment_second_"/>
     <fragment
-        android:id="@+id/third_Fragment"
-        android:name="com.example.navigationandfragments.Fragments.third_Fragment"
+        android:id="@+id/thirdFragment"
+        android:name="com.example.navigationandfragments.Fragments.ThirdFragment"
         android:label="fragment_third_"
         tools:layout="@layout/fragment_third_" >
         <argument
-            android:name="data "
+            android:name="data"
             app:argType="string" />
     </fragment>
 </navigation>

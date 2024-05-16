@@ -7,16 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.navigationandfragments.R
-import com.example.navigationandfragments.databinding.FragmentFirstBinding
-import com.example.navigationandfragments.databinding.FragmentSecondBinding
-import com.example.navigationandfragments.databinding.FragmentThirdBinding
 
 
+class ThirdFragment : Fragment() {
 
-class third_Fragment : Fragment() {
-
-   val args: third_FragmentArgs by navArgs()
-
+   val args: ThirdFragmentArgs by navArgs()
 
 
     override fun onCreateView(
@@ -30,5 +25,6 @@ class third_Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val data = args.data
+
     }
 }

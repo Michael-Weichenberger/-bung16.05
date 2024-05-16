@@ -9,7 +9,7 @@ import com.example.navigationandfragments.R
 import com.example.navigationandfragments.databinding.FragmentSecondBinding
 
 
-class second_Fragment : Fragment() {
+class SecondFragment : Fragment() {
 
     private lateinit var binding: FragmentSecondBinding
 
